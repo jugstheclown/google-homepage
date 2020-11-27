@@ -13,9 +13,8 @@ body {
 #top-header li {
     display: inline;
     padding: 5px;
-    margin-left: 10px;
     text-align: center;
-    margin-right: 10px;
+    margin-left: 10px;
 }
 
 #top-header {
