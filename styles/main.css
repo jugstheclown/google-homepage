@@ -13,6 +13,7 @@ body {
 #top-header li {
     display: inline;
     padding: 5px;
+    margin-left: 10px;
     text-align: center;
     margin-right: 10px;
 }
@@ -20,6 +21,7 @@ body {
 #top-header {
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
     color: #5f6368;
     padding-top: 25px;
