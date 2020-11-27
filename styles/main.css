@@ -1,0 +1,140 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+#top-header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#top-header li {
+    display: inline;
+    padding: 5px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+#top-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #5f6368;
+    padding-top: 25px;
+}
+
+#left-header-content {
+    width: 50%; 
+    display: inline-block;
+}
+
+#right-header-content {
+    width: 50%;
+    float: right; 
+    text-align: right;
+}
+
+#sign-in-button {
+    background-color: #4285f4; 
+    font-weight: bold; 
+    text-align: center;
+    color: white;
+    border: 1px solid #4285f4; 
+    border-radius: 2px; 
+    padding: 0;
+    width: 75px;
+}
+
+#main-content {
+    margin-top: 100px;
+}
+
+#logo-div {
+    display: block;
+    padding-top: 109px;
+    padding-bottom: 30px;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#search-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 584px;
+    padding: 12px;
+    border-radius: 30px;
+    border: 1px solid #dbdbdb;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+#main-content-buttons {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    padding: 10px;
+}
+
+button {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2; 
+    border-radius: 5px;
+    color: #5F6368;
+    padding: 3px 25px;  
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+#bottom-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border: 1px solid #e7e7e7;
+    color: #5f6368;
+    background-color: #f3f3f3;
+}
+
+#bottom-footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 14px;
+}
+
+#bottom-footer li {
+    display: inline;
+    padding: 10px;
+    text-align: center;
+    margin-right: 7px;
+}
+
+#left-footer-content {
+    width: 50%; 
+    position: fixed;
+    display: inline-block;
+}
+
+#right-footer-content {
+    width: 50%;
+    float: right; 
+    text-align: right;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
